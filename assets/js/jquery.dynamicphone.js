@@ -125,7 +125,7 @@ $(function () {
                 // Inject href
                 $call.attr("href", "tel:" + phone);
                 // Change value
-                $call.html(phone.replace(/(\d{3})\-?(\d{3})\-?(\d{4})/, '($1) $2-$3'));
+                $call.html('<span class="dynamic-phone-inner">' . phone.replace(/(\d{3})\-?(\d{3})\-?(\d{4})/, '($1) $2-$3') . '</span>');
             }
         };
 
