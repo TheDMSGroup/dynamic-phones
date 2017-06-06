@@ -17,7 +17,7 @@ class Settings extends Model
     /**
      * @var string
      */
-    public $settingsCode = 'thedmsgrp_content_settings';
+    public $settingsCode = 'thedmsgrp_dynamicphone_settings';
 
     /**
      * @var string

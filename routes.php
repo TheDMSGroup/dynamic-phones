@@ -5,6 +5,10 @@ Route::post('/api/dynamicnumbers/numbers', function() {
     $defaultNumber = \TheDMSGrp\DynamicPhones\Models\Settings::get('default_number', '8669841240');
     $cookieLife = \TheDMSGrp\DynamicPhones\Models\Settings::get('cookie_life', 1);
 
+    if (empty($defaultNumber)) {
+        $defaultNumber = '8669841240';
+    }
+
     $numbers = \TheDMSGrp\DynamicPhones\Models\Phone::select('phone', 'parameters', 'urls')->get()->toArray();
 
     foreach ($numbers as &$number) {

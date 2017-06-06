@@ -10,4 +10,6 @@ fields:
   cookie_life:
     label: Cookie Lifespan
     type: number
+    default: 1
     required: true
+    comment: in days
