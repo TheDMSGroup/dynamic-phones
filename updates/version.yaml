@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table thedmsgrp_dynamicphones_parameters'
+    - builder_table_create_thedmsgrp_dynamicphones_parameters.php
+1.0.3:
+    - 'Created table thedmsgrp_dynamicphones_phones'
+    - builder_table_create_thedmsgrp_dynamicphones_phones.php
+1.0.4:
+    - 'Updated table thedmsgrp_dynamicphones_phones'
+    - builder_table_update_thedmsgrp_dynamicphones_phones.php
+1.0.5:
+    - 'Updated table thedmsgrp_dynamicphones_phones'
+    - builder_table_update_thedmsgrp_dynamicphones_phones_2.php
+1.0.6:
+    - 'Updated table thedmsgrp_dynamicphones_phones'
+    - builder_table_update_thedmsgrp_dynamicphones_phones_3.php

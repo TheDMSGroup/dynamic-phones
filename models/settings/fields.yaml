@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+  default_number:
+    label: Default Number
+    type: number
+    required: true
+  cookie_life:
+    label: Cookie Lifespan
+    type: number
+    required: true

@@ -1,0 +1,11 @@
+title: Parameters
+modelClass: TheDMSGrp\DynamicPhones\Models\Parameters
+list: $/thedmsgrp/dynamicphones/models/parameters/columns.yaml
+recordUrl: 'thedmsgrp/dynamicphones/parameters/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

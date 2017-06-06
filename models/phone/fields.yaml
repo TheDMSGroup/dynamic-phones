@@ -1,0 +1,37 @@
+fields:
+    phone:
+        label: Number
+        span: auto
+        oc.commentPosition: ''
+        type: number
+    parameters:
+        label: Parameters
+        oc.commentPosition: ''
+        prompt: 'Add new item'
+        span: full
+        type: repeater
+        form:
+            fields:
+                dropdown:
+                    label: Dropdown
+                    oc.commentPosition: ''
+                    span: auto
+                    type: dropdown
+                value:
+                    label: Value
+                    span: auto
+                    oc.commentPosition: ''
+                    type: text
+    urls:
+        label: Urls
+        oc.commentPosition: ''
+        prompt: 'Add new item'
+        span: full
+        type: repeater
+        form:
+            fields:
+                urls:
+                    label: Url
+                    oc.commentPosition: ''
+                    span: auto
+                    type: text

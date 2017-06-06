@@ -1,0 +1,10 @@
+name: Phones
+form: $/thedmsgrp/dynamicphones/models/phone/fields.yaml
+modelClass: TheDMSGrp\DynamicPhones\Models\Phone
+defaultRedirect: thedmsgrp/dynamicphones/phones
+create:
+    redirect: 'thedmsgrp/dynamicphones/phones/update/:id'
+    redirectClose: thedmsgrp/dynamicphones/phones
+update:
+    redirect: thedmsgrp/dynamicphones/phones
+    redirectClose: thedmsgrp/dynamicphones/phones

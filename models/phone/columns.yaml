@@ -1,0 +1,15 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    phone:
+        label: phone
+        type: text
+        searchable: true
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

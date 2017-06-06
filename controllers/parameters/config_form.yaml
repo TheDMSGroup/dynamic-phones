@@ -1,0 +1,10 @@
+name: Parameters
+form: $/thedmsgrp/dynamicphones/models/parameters/fields.yaml
+modelClass: TheDMSGrp\DynamicPhones\Models\Parameters
+defaultRedirect: thedmsgrp/dynamicphones/parameters
+create:
+    redirect: 'thedmsgrp/dynamicphones/parameters/update/:id'
+    redirectClose: thedmsgrp/dynamicphones/parameters
+update:
+    redirect: thedmsgrp/dynamicphones/parameters
+    redirectClose: thedmsgrp/dynamicphones/parameters

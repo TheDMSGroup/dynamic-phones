@@ -1,0 +1,24 @@
+plugin:
+    name: 'thedmsgrp.dynamicphones::lang.plugin.name'
+    description: 'thedmsgrp.dynamicphones::lang.plugin.description'
+    author: thedmsgrp
+    icon: oc-icon-phone
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'thedmsgrp.dynamicphones::lang.plugin.name'
+        url: /thedmsgrp/dynamicphones/phones
+        icon: icon-phone
+        sideMenu:
+            side-menu-item:
+                label: Phones
+                url: /thedmsgrp/dynamicphones/phones
+                icon: icon-phone
+            side-menu-item2:
+                label: Parameters
+                url: thedmsgrp/dynamicphones/parameters
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Settings
+                url: system/settings/update/thedmsgrp/dynamicphones/settings
+                icon: icon-cog
