@@ -84,15 +84,6 @@ $(function () {
                     phone = currentPhone;
                 }
 
-                console.log('Phone Number: ' + currentPhone);
-                console.log('Parameters:');
-                console.log(parameters);
-                console.log('Urls:');
-                console.log(urls);
-                console.log('Score: ' + currentScore);
-                console.log('');
-                console.log('');
-
             });
         }
 
@@ -100,9 +91,6 @@ $(function () {
         if (typeof phone == 'undefined') {
             phone = defaultPhone;
         }
-
-        console.log('Winning phone: ' + phone);
-        console.log('score: ' + score);
 
         return phone;
     }
