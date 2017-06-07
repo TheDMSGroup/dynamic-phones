@@ -1,6 +1,6 @@
 fields:
     phone:
-        label: Number
+        label: Phone Number
         span: auto
         oc.commentPosition: ''
         comment: 'Numbers only'
@@ -25,6 +25,7 @@ fields:
                     span: auto
                     oc.commentPosition: ''
                     type: text
+                    required: true
     urls:
         label: Urls
         oc.commentPosition: ''
@@ -38,3 +39,4 @@ fields:
                     oc.commentPosition: ''
                     span: auto
                     type: text
+                    required: true
